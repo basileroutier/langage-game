@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Appel le Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Appel aux fichier js -->
+    <script src="data.js"></script>
+    <script src="homePage.js"></script>
+    <script src="getDataTable.js"></script>
+    <script src="https://kit.fontawesome.com/a23930e38d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Appel aux fichiers css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- Police écriture -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+
+    <!-- Titre -->
+    <title>Plan langue 54018</title>
+</head>
+
+<body>
+    <!-- Header de la page -->
+    <header class="header disable-selection">
+        <h1 class="font title">
+            Plan langue
+        </h1>
+        <h2 class="font subtitle">
+            WEBG2 - Projet 1
+        </h2>
+    </header>
+
+    <!-- Container qui contient le texte, les options de langues et le bouton -->
+    <div class="container disable-selection">
+        <form action="jeu.html">
+            <h1 class="title-corp">Apprendre une langue en s'amusant</h1>
+            <p class="choice-lab espace">Faites votre choix</p>
+            <div class="selector">
+                <select name="quizId" id="langage-chooser" class="langage-chooser espace" required>
+                    <option></option>
+                </select>
+                <input type="submit" id="sub" class="submit" value="Lancer le test">
+                <a id="help" class="help"><i class="far fa-question-circle"></i></a>
+
+            </div>
+        </form>
+        <div id="helpDiv" class="helpDiv">
+            <div class="headerHelp">Comment jouez au test ?</div>
+            <p class="espace-small">1. Choisissez la langue et le niveau dans le slider à votre gauche puis lancer le
+                test.</p>
+            <p class="espace-small">2. Vous arriverez sur le test en question puis lisez la question posée.</p>
+            <p class="espace-small">3. Vous pourrez former votre question en cliquant sur les mots du bas et
+                s'afficheront dans l'ordre dans la bordure</p>
+            <p class="espace-small">4. Pour vérifier votre réponse, cliquer sur le bouton pour vérifier votre réponse.
+            </p>
+            <p class="espace-small">Vous souhaitez voir à quoi ressemble le test ? Cliquez sur le lien pour accéder à
+                une démo dans la langue choisie <a id="demoHelp" class="demoHelp"> Accéder à la démo</a></p>
+        </div>
+
+    </div>
+
+    <!-- Footer de la page -->
+    <footer class="foot disable-selection">
+        <p class="name-footer">Auteur : 54018 - Basile Routier</p>
+    </footer>
+</body>
+
+</html>

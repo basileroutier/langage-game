@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Appel le Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Appel aux fichier js -->
+    <script src="data.js"></script>
+    <script src="demo.js"></script>
+    <script src="getDataTable.js"></script>
+    <!-- Appel aux fichiers css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <!-- Police écriture -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <!-- Titre -->
+    <title>Démo Plan langue 54018</title>
+</head>
+
+<body>
+    <!-- HEADER de la page -->
+    <header class="header disable-selection">
+        <h1 class="font title">
+            Plan langue démo
+        </h1>
+        <h2 class="font subtitle">
+            WEBG2 - Projet 1
+        </h2>
+    </header>
+
+    <!-- Container du texte de fin, boutons retour et résultats -->
+    <div class="div-end hidden">
+        <h2 id="result" class="endResult espace"></h2>
+        <p id="message" class="endMessage espace"></p>
+        <div class="buttonEnd espace">
+            <a href="#" id="reloadGame" class="backTo"></a>
+            <a href="#" id="home" class="backTo home"></a>
+        </div>
+
+    </div>
+    <!-- Container du texte, des boutons, de la phrase et du bouton -->
+    <div class="container disable-selection">
+        <h1 id="quizTheme" class="quizTheme">Quiz sur le thème : </h1>
+        <p id="numQuest" class="text espace">Question</p>
+        <p id="question" class="question espace"></p>
+
+        <div id="containerQuestion" class="container-question espace-small"></div>
+        <div class="reponse hidden"></div>
+        <p class="text espace-small">Cliquez sur un mot pour le placer dans la réponse (à la suite). Cliquez sur un mot
+            de la réponse pour l'enlever</p>
+        <div id="boutonQuestion"></div>
+        <div class="buttonVerif">
+            <button id="verif" class="verif espace">Vérifier ma réponse</button>
+            <button id="replayDemo" class="replayDemo espace hidden">Relancer la démo</button>
+        </div>
+    </div>
+
+    <!-- Footer de la page -->
+    <footer class="foot disable-selection">
+        <p class="name-footer">Auteur : 54018 - Basile Routier</p>
+    </footer>
+</body>
+
+</html>

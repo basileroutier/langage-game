@@ -1,0 +1,56 @@
+/*                     Titre du corp                                          */
+.title-corp {
+    font-size: 2.6em;
+}
+
+/*                     Texte au dessus de la selection                        */
+.choice-lab {
+    font-size: 1.2em;
+}
+
+/*                      Bouton submit                                         */
+.submit {
+    width: auto;
+    background-color: rgb(26, 86, 153);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 3px;
+    font-size: 1em;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+
+.help {
+    margin-left: .5em;
+    font-size: 1em;
+    color: rgb(26, 86, 153);
+}
+
+.helpDiv {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    align-items: center;
+    border: 2px solid rgb(26, 86, 153);
+}
+
+.headerHelp {
+    text-align: center;
+    width: auto;
+    height: auto;
+    color: white;
+    background: rgba(33, 104, 185, 0.815);
+}
+
+.demoHelp {
+    color: rgb(26, 117, 153);
+    margin-left: 5em;
+}
+
+.demoHelp:hover {
+    cursor: pointer;
+}

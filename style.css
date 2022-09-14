@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*                                       HEADER   FOR   ALL                                                      */
+
+.header {
+    background-color: rgb(34, 90, 136);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.font {
+    color: white;
+    text-align: center;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.title {
+    font-size: 3.5em;
+}
+
+.subtitle {
+    font-size: 1.5em;
+}
+
+/*                                 END   OF   THE  HEADER                                                     */
+
+
+
+
+
+
+/*                                           CORP                                                             */
+
+
+/*                                   Disable text selection                                                   */
+.disable-selection {
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer */
+    -khtml-user-select: none;
+    /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none;
+    /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none;
+    /* Disable Android and iOS callouts*/
+}
+
+
+/*                                 CONTAINER FOR ALL                                                          */
+.container {
+    margin-top: 4%;
+    margin-left: 4vw;
+    margin-right: 4%;
+}
+
+/*                                 MARGIN BETWEEN ALL BALISE IN CODE WHEN NEEDED                              */
+.espace {
+    margin-top: 3%;
+}
+
+.espace-small {
+    margin-top: 1%;
+}
+
+/*                                           END OF CORP                                                      */
+
+
+
+
+
+
+
+
+
+/*                      FOOTER   FOR    ALL                                         */
+.foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.name-footer {
+    border-top: 1px grey solid;
+    display: inline-block;
+}

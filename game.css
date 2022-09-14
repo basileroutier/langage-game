@@ -1,0 +1,108 @@
+/*                Container qui contiandra la question former au fur et à mesure                   */
+.container-question {
+    border: 1px rgb(10, 10, 10) solid;
+    width: auto;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/*              Les balises P avec un texte                 */
+.text {
+    font-size: 1.1em;
+}
+
+/*               Bouton submit                                                */
+.verif {
+    width: auto;
+    background-color: rgb(26, 86, 153);
+    outline: none;
+    border: none;
+    color: white;
+    padding: .3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.3em;
+}
+
+.verif:hover {
+    opacity: 0.85;
+    transition: opacity 0.7s;
+}
+
+/*               Bouton relancer démo            */
+.replayDemo {
+    width: auto;
+    background-color: rgb(26, 86, 153);
+    outline: none;
+    border: none;
+    color: white;
+    padding: .3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.3em;
+}
+
+.replayDemo:hover {
+    opacity: 0.85;
+    transition: opacity 0.7s;
+}
+
+
+.questionBut {
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+.hidden {
+    visibility: hidden;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.5em;
+}
+
+.endDiv {
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.endResult {
+    text-align: center;
+}
+
+.endMessage {
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.backTo {
+    color: black;
+}
+
+.backTo:hover {
+    text-decoration: none;
+}
+
+.reloadGame {
+    margin-right: 1.2em;
+}
+
+.win {
+    background: rgb(14, 102, 36);
+    color: white;
+    font-size: 1.5em;
+}
+
+.loose {
+    background: rgb(185, 9, 9);
+    color: white;
+    font-size: 1.5em;
+}
